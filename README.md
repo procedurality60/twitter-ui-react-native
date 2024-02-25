@@ -1,10 +1,10 @@
 ### GitHub Project Description:
 
-🐦 Twitter Clone in React Native! 🚀 A simple app for tweeting, liking, and posting. Basic CRUD operations for your microblogging pleasure!🌟
+🐦 Twitter UI Clone in React Native! 🚀 A simple app for tweeting, liking, and posting. Basic CRUD operations for your microblogging pleasure!🌟
 
 ### README.md Description:
 
-# Twitter Clone in React Native
+# Twitter UI Clone in React Native
 
 Welcome to **Twitter Clone**, a basic yet powerful app for microblogging on the go! 📱✨
 
@@ -40,10 +40,6 @@ Follow these steps to get the project up and running on your local machine:
 2. Navigate to the project directory: `cd twitter-ui-react-native`
 3. Install dependencies: `npm install`
 4. Start the Expo server: `npm start`
-
-## Contributing 🤝
-
-We welcome contributions! Feel free to fork the repository and submit pull requests. Whether it's fixing bugs, adding new features, or improving documentation, every bit helps make this project better for everyone.
 
 ## Special Thanks 💌
 
