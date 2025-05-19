@@ -23,7 +23,7 @@ This project is a React Native application that lets you tweet, like, and post w
 - **React Native**: Cross-platform framework for building native apps.
 - **Expo**: Tools and libraries for rapid development.
 - **Backend**: Node.js with Express for API, PostgreSQL for database.
-  - **Backend Repository**: [Link to Backend Repository](https://github.com/judevector/twitter-backend-api)
+  - **Backend Repository**: check the "backend" folder
   - **Hosted on**: AWS
 
 ## Getting Started 🚀
