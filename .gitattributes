@@ -1,1 +1,11 @@
+# Treat all JavaScript files explicitly as JavaScript
+*.js   linguist-language=JavaScript
 
+# Optionally, if you have TypeScript files that you want counted as JavaScript:
+*.ts   linguist-language=JavaScript
+*.tsx  linguist-language=JavaScript
+
+# Exclude non-JS files from language statistics
+*.html linguist-detectable=false
+*.css  linguist-detectable=false
+*.md   linguist-detectable=false
