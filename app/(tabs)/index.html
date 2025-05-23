@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>TabOneScreen Converted</title>
+    <!-- Load React, ReactDOM, and Babel from CDNs -->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <style>
+      /* Basic styles for the body */
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- A container for our React app -->
+    <div id="root"></div>
+    <!-- Our JavaScript/JSX code -->
+    <script type="text/babel">
+      // Instead of React Native's StyleSheet, we define a JS style object.
+      const styles = {
+        page: {
+          backgroundColor: "white",
+          flex: 1,
+          padding: "20px"
+        }
+      };
+
+      // A simple Tweet component to display each tweet.
+      // Here we assume each tweet has an 'id' and 'text'.
+      function Tweet({ tweet }) {
+        return (
+          <div style={{
+            border: "1px solid #ccc",
+            margin: "5px 0",
+            padding: "10px"
+          }}>
+            {tweet.text}
+          </div>
+        );
+      }
+
+      // Example tweets data (replacing the import of tweets from your assets).
+      const tweets = [
+        { id: "1", text: "Hello World!" },
+        { id: "2", text: "React is awesome!" },
+        { id: "3", text: "JSX makes coding fun!" }
+      ];
+
+      // Converted TabOneScreen component using plain HTML elements.
+      function TabOneScreen() {
+        return (
+          <div style={styles.page}>
+            {tweets.map((item) => (
+              <Tweet key={item.id} tweet={item} />
+            ))}
+          </div>
+        );
+      }
+
+      // Render the TabOneScreen component into the 'root' div.
+      ReactDOM.render(<TabOneScreen />, document.getElementById("root"));
+    </script>
+  </body>
+</html>
